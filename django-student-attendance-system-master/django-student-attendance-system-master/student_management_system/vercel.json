@@ -9,5 +9,6 @@
             "src":"/(.*)",
             "dest":"student_management_system/wsgi.py"
         }
-    ]
+    ],
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
